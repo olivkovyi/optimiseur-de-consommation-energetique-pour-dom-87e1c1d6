@@ -1,0 +1,303 @@
+{
+  "run_id": "run-1779136989655",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Évaluez l'efficacité énergétique de votre habitation, identifiez les points faibles et découvrez les solution…",
+    "notes": "Analysez le potentiel d'amélioration énergétique de votre maison ancienne et obtenez des recommandations personnalisées pour réduire votre facture.\nOrientation vers les propriétaires de biens anciens, mettant en avant la réduction des coûts et l'impact écologique. Thème 'refine-grit' pour un aspect durable et honnête, structure 'editorial-rail' pour un récit clair.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "calculator",
+      "tool"
+    ],
+    "forced_design_theme": "refined-grit",
+    "forced_structure_preset": "editorial-rail",
+    "site_idea_title": "Optimiseur de Consommation Énergétique pour Domiciles Anciens",
+    "site_idea_summary": "Analysez le potentiel d'amélioration énergétique de votre maison ancienne et obtenez des recommandations personnalisées pour réduire votre facture."
+  },
+  "site_spec": {
+    "slug": "optimiseur-de-consommation-energetique-pour-dom-87e1c1d6",
+    "theme": {
+      "name": "Refined Grit",
+      "slug": "refined-grit",
+      "eyebrow": "Polished Edge",
+      "family": "refined-grit",
+      "moods": [
+        "edgy",
+        "polished",
+        "textured",
+        "bold"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "brand tools",
+        "creator tools",
+        "portfolio utility",
+        "campaign tools",
+        "research"
+      ],
+      "keywords": [
+        "grit",
+        "texture",
+        "edge",
+        "bold",
+        "statement"
+      ],
+      "token_index": [
+        "bold",
+        "brand",
+        "calculator",
+        "campaign",
+        "creator",
+        "edge",
+        "edgy",
+        "generator",
+        "grit",
+        "polished",
+        "portfolio",
+        "refined",
+        "research",
+        "statement",
+        "texture",
+        "textured",
+        "tool",
+        "tools",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"DM Serif Display\", serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "editorial",
+      "card_style": "paper",
+      "button_style": "slab",
+      "decor_style": "paper",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "70vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(160deg, #f7f3ee 0%, #d6d3d1 48%, #111827 100%)",
+        "surface": "rgba(17,24,39,0.8)",
+        "surface_border": "rgba(249,115,22,0.14)",
+        "text": "#faf5ef",
+        "muted": "#d6c6b9",
+        "accent": "#f97316",
+        "accent_alt": "#eab308",
+        "hero_glow": "rgba(249, 115, 22, 0.16)",
+        "button_text": "#1c1008",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 84px rgba(15, 23, 42, 0.3)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Editorial Rail",
+      "slug": "editorial-rail",
+      "hero_variant": "editorial",
+      "proof_variant": "rail",
+      "section_order": [
+        "seo",
+        "features",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "editorial",
+      "moods": [
+        "calm",
+        "trust",
+        "luxury"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "property",
+        "documents",
+        "consulting",
+        "insurance"
+      ],
+      "keywords": [
+        "editorial",
+        "rail",
+        "storytelling",
+        "magazine"
+      ],
+      "token_index": [
+        "calculator",
+        "calm",
+        "consulting",
+        "documents",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "insurance",
+        "luxury",
+        "magazine",
+        "proof",
+        "property",
+        "rail",
+        "seo",
+        "storytelling",
+        "tool",
+        "trust"
+      ]
+    },
+    "render_direction": "editorial-ledger",
+    "render_direction_name": "Editorial Ledger",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Optimiseur de Consommation Énergétique pour Domiciles Anciens",
+    "tagline": "Votre Bilan Énergétique Personnalisé",
+    "description": "Analysez le potentiel d",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Calculer mon Potentiel d'Économies",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Editorial Ledger",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Editorial Ledger",
+      "Calculer mon Potentiel d'Économies",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "energy_score_calculator",
+    "page_variant": "editorial",
+    "faq_topic": "Optimiseur de Consommation Énergétique pour Domiciles Anciens",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Optimiseur de Consommation Énergétique pour Domiciles Anciens ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Optimiseur de Consommation Énergétique pour Domiciles Anciens et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Optimiseur de Consommation Énergétique pour Domiciles Anciens | Votre Bilan Énergétique Personnalisé</title>\n    <meta name=\"description\" content=\"Analysez le potentiel d\">\n    <style>\n        :root {\n            --color-dark: #2c3e50;\n            --color-light: #ecf0f1;\n            --color-accent: #e74c3c;\n            --color-secondary: #f39c12;\n            --font-main: 'Helvetica Neue', Arial, sans-serif;\n            --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n            --spacing-unit: 1rem;\n        }\n\n        body {\n            font-family: var(--font-main);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: var(--color-light);\n            color: var(--color-dark);\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        header {\n            background-color: var(--color-dark);\n            color: var(--color-light);\n            padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);\n            text-align: center;\n            border-bottom: 4px solid var(--color-accent);\n        }\n\n        h1 {\n            font-size: 2.5rem;\n            margin-bottom: 0.5rem;\n            letter-spacing: -0.05em;\n        }\n\n        h2 {\n            font-size: 1.8rem;\n            margin-top: calc(var(--spacing-unit) * 3);\n            margin-bottom: var(--spacing-unit);\n            text-align: center;\n            color: var(--color-accent);\n        }\n\n        h3 {\n            font-size: 1.4rem;\n            margin-bottom: 0.8rem;\n            color: var(--color-dark);\n            border-bottom: 2px solid var(--color-secondary);\n            padding-bottom: 0.3rem;\n            display: inline-block;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: var(--spacing-unit);\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: var(--spacing-unit);\n            flex-grow: 1;\n        }\n\n        .panel {\n            background-color: white;\n            padding: calc(var(--spacing-unit) * 1.5);\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n            border: 1px solid #e0e0e0;\n        }\n\n        .panel.full-width {\n            grid-column: 1 / -1;\n        }\n\n        form#tool-form {\n            display: grid;\n            gap: var(--spacing-unit);\n        }\n\n        form#tool-form label {\n            font-weight: bold;\n            display: block;\n            margin-bottom: 0.3rem;\n        }\n\n        form#tool-form input[type=\"number\"],\n        form#tool-form select {\n            width: 100%;\n            padding: 0.8rem;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n            font-size: 1rem;\n            background-color: #f9f9f9;\n        }\n\n        form#tool-form button#tool-submit {\n            background-color: var(--color-accent);\n            color: var(--color-light);\n            border: none;\n            padding: 1rem 1.5rem;\n            border-radius: 4px;\n            font-size: 1.1rem;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n            margin-top: var(--spacing-unit);\n        }\n\n        form#tool-form button#tool-submit:hover {\n            background-color: #c0392b;\n        }\n\n        #tool-result {\n            margin-top: var(--spacing-unit);\n            padding: var(--spacing-unit);\n            background-color: #f9f9f9;\n            border: 1px solid #ddd;\n            border-radius: 4px;\n        }\n\n        #tool-result h3 {\n            color: var(--color-dark);\n            margin-top: 0;\n            border-bottom: 2px solid var(--color-accent);\n            padding-bottom: 0.5rem;\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .recommendation {\n            margin-bottom: var(--spacing-unit);\n            padding: var(--spacing-unit);\n            background-color: #e8f6f3;\n            border-left: 5px solid #2ecc71;\n            border-radius: 4px;\n        }\n\n        .recommendation p {\n            margin-top: 0;\n            margin-bottom: 0.5rem;\n        }\n\n        .highlight {\n            font-weight: bold;\n            color: var(--color-accent);\n        }\n\n        .seo-section {\n            background-color: var(--color-dark);\n            color: var(--color-light);\n            padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);\n            margin-top: calc(var(--spacing-unit) * 2);\n            text-align: center;\n            border-top: 4px solid var(--color-secondary);\n        }\n\n        .seo-section h2 {\n            color: var(--color-secondary);\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .seo-section p {\n            max-width: 800px;\n            margin: 0 auto 1rem auto;\n            line-height: 1.8;\n            font-size: 0.95rem;\n            opacity: 0.9;\n        }\n\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            max-width: 800px;\n            margin: 0 auto;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 0.5rem;\n        }\n\n        .seo-section li {\n            background-color: var(--color-secondary);\n            color: var(--color-dark);\n            padding: 0.4rem 0.8rem;\n            border-radius: 20px;\n            font-size: 0.85rem;\n            font-weight: bold;\n            display: inline-block;\n        }\n\n        @media (max-width: 768px) {\n            h1 {\n                font-size: 2rem;\n            }\n            .container {\n                grid-template-columns: 1fr;\n            }\n            .panel.full-width {\n                grid-column: auto;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://optimiseur-de-consommation-energetique-pour-dom-87e1c1d6.onrender.com\">\n    <meta property=\"og:title\" content=\"Optimiseur de Consommation Énergétique pour Domiciles Anciens\">\n    <meta property=\"og:description\" content=\"Analysez le potentiel d\">\n    <meta property=\"og:url\" content=\"https://optimiseur-de-consommation-energetique-pour-dom-87e1c1d6.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Optimiseur de Consommation Énergétique pour Domiciles Anciens\", \"description\": \"Analysez le potentiel d\", \"url\": \"https://optimiseur-de-consommation-energetique-pour-dom-87e1c1d6.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"optimiseur-de-consommation-energetique-pour-dom-87e1c1d6\" data-runtime-mode=\"energy_score_calculator\">\n    <header>\n        <h1>Optimiseur de Consommation Énergétique pour Domiciles Anciens</h1>\n        <p>Analysez le potentiel d'amélioration de votre maison ancienne et découvrez comment réduire votre facture énergétique et votre empreinte écologique.</p>\n    </header>\n\n    <main class=\"container\">\n        <div class=\"panel full-width\">\n            <h2>Votre Bilan Énergétique Personnalisé</h2>\n            <p>Renseignez quelques informations clés sur votre propriété pour obtenir une estimation de vos économies potentielles et des recommandations sur mesure.</p>\n            <form id=\"tool-form\">\n                <label for=\"annee-construction\">Année de construction de votre bien :</label>\n                <input type=\"number\" id=\"annee-construction\" min=\"1800\" max=\"2024\" value=\"1960\" required aria-label=\"Année de construction du bien\">\n\n                <label for=\"surface-habitable\">Surface habitable (m²) :</label>\n                <input type=\"number\" id=\"surface-habitable\" min=\"30\" max=\"500\" value=\"120\" required aria-label=\"Surface habitable en mètres carrés\">\n\n                <label for=\"type-chauffage\">Type de chauffage principal :</label>\n                <select id=\"type-chauffage\" required aria-label=\"Type de chauffage principal\">\n                    <option value=\"gaz\">Chauffage au gaz (chaudière ancienne)</option>\n                    <option value=\"electrique\">Chauffage électrique (convecteurs)</option>\n                    <option value=\"fioul\">Chauffage au fioul</option>\n                    <option value=\"bois\">Chauffage au bois (poêle/cheminée ancienne)</option>\n                    <option value=\"pompe_chaleur_ancienne\">Ancienne pompe à chaleur</option>\n                    <option value=\"mixte\">Mixte (plusieurs sources)</option>\n                </select>\n\n                <label for=\"isolation-mur\">Isolation des murs :</label>\n                <select id=\"isolation-mur\" required aria-label=\"Niveau d'isolation des murs\">\n                    <option value=\"aucune\">Aucune isolation</option>\n                    <option value=\"faible\">Faible (isolation par l'intérieur ancienne)</option>\n                    <option value=\"moyenne\">Moyenne (ITE ou ITI récente mais standard)</option>\n                    <option value=\"bonne\">Bonne (ITE ou ITI performante)</option>\n                </select>\n\n                <label for=\"isolation-toit\">Isolation de la toiture/combles :</label>\n                <select id=\"isolation-toit\" required aria-label=\"Niveau d'isolation de la toiture ou des combles\">\n                    <option value=\"aucune\">Aucune isolation</option>\n                    <option value=\"faible\">Faible (laine de verre ancienne)</option>\n                    <option value=\"moyenne\">Moyenne (laine de roche/soufflée standard)</option>\n                    <option value=\"bonne\">Bonne (isolant performant ou toiture rénovée)</option>\n                </select>\n\n                <label for=\"nombre-occupants\">Nombre d'occupants réguliers :</label>\n                <input type=\"number\" id=\"nombre-occupants\" min=\"1\" max=\"10\" value=\"2\" required aria-label=\"Nombre d'occupants réguliers de l'habitation\">\n\n                <button type=\"submit\" id=\"tool-submit\">Calculer mon Potentiel d'Économies</button>\n            </form>\n        </div>\n\n        <div class=\"panel full-width\" id=\"tool-result\">\n            <h3 id=\"result-headline\">Résultats et Recommandations Personnalisées</h3>\n            <p>Vos estimations s'afficheront ici après calcul.</p>\n        </div>\n\n        <div class=\"panel\">\n            <h3>Pourquoi Agir sur votre Ancien ?</h3>\n            <p>Les maisons anciennes ont un charme indéniable, mais leur conception initiale n'intégrait pas les enjeux énergétiques actuels. Sans isolation moderne, avec des systèmes de chauffage obsolètes et des menuiseries peu performantes, elles sont souvent de véritables \"passoires thermiques\".</p>\n            <p>C'est une opportunité ! Chaque euro investi dans la rénovation énergétique est un euro qui ne partira plus en fumée via votre facture, tout en valorisant votre patrimoine et en protégeant l'environnement.</p>\n        </div>\n\n        <div class=\"panel\">\n            <h3>Des Solutions Concrètes pour une Maison Durable</h3>\n            <ul>\n                <li><strong class=\"highlight\">Isolation :</strong> Murs (par l'extérieur ou l'intérieur), toiture, planchers bas. C'est le pilier de toute rénovation.</li>\n                <li><strong class=\"highlight\">Chauffage :</strong> Remplacement de chaudières anciennes par des pompes à chaleur, chaudières biomasse, ou systèmes hybrides.</li>\n                <li><strong class=\"highlight\">Ventilation :</strong> VMC double flux pour une meilleure qualité de l'air et récupération de chaleur.</li>\n                <li><strong class=\"highlight\">Menuiseries :</strong> Fenêtres et portes double vitrage performantes pour limiter les déperditions.</li>\n                <li><strong class=\"highlight\">Énergies renouvelables :</strong> Panneaux solaires thermiques ou photovoltaïques.</li>\n            </ul>\n        </div>\n\n    </main>\n\n    <section class=\"seo-section\">\n        <h2>Votre Rénovation Énergétique en France : Optimisez votre Budget et l'Environnement</h2>\n        <p>Propriétaire d'une maison ancienne en France ? Réduire sa consommation énergétique est une priorité. Notre outil vous aide à identifier les travaux les plus rentables pour votre bien, qu'il s'agisse d'une longère en Bretagne, d'une bâtisse en pierre en Occitanie ou d'une maison de maître en Nouvelle-Aquitaine. Améliorer l'isolation de votre toiture, installer une pompe à chaleur performante, ou remplacer vos fenêtres sont des investissements clés.</p>\n        <p>Bénéficiez des aides de l'État comme MaPrimeRénov', l'Éco-prêt à taux zéro, ou la TVA à taux réduit pour financer vos projets. Une meilleure performance énergétique, c'est une maison plus confortable, une facture de chauffage allégée, et une empreinte carbone diminuée. Préparez l'avenir de votre logement et valorisez votre patrimoine immobilier dès aujourd'hui.</p>\n        <ul>\n            <li>Rénovation énergétique maison ancienne</li>\n            <li>Aides rénovation énergétique 2024</li>\n            <li>Isolation toiture maison ancienne</li>\n            <li>Chauffage économique maison</li>\n            <li>Audit énergétique gratuit</li>\n            <li>MaPrimeRénov' conditions</li>\n            <li>Réduire facture énergie maison</li>\n            <li>Performance énergétique DPE</li>\n            <li>Diagnostic thermique logement</li>\n            <li>Valorisation immobilière écologique</li>\n        </ul>\n    </section>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const anneeConstruction = parseInt(document.getElementById('annee-construction').value);\n            const surfaceHabitable = parseInt(document.getElementById('surface-habitable').value);\n            const typeChauffage = document.getElementById('type-chauffage').value;\n            const isolationMur = document.getElementById('isolation-mur').value;\n            const isolationToit = document.getElementById('isolation-toit').value;\n            const nombreOccupants = parseInt(document.getElementById('nombre-occupants').value);\n\n            let scoreEnergetique = 100; // Plus le score est bas, meilleure est l'efficacité\n            let economiePotentielle = 0;\n            let recommandations = [];\n\n            // Impact de l'année de construction\n            if (anneeConstruction < 1945) {\n                scoreEnergetique += 40;\n                recommandations.push(\"Votre maison est très ancienne. L'isolation générale est probablement le point le plus critique.\");\n            } else if (anneeConstruction < 1975) {\n                scoreEnergetique += 30;\n                recommandations.push(\"Les maisons de cette période manquent souvent d'isolation moderne. Une attention particulière doit être portée aux murs et toitures.\");\n            } else if (anneeConstruction < 1990) {\n                scoreEnergetique += 20;\n                recommandations.push(\"Les normes thermiques étaient moins strictes. Une rénovation ciblée peut apporter de grands gains.\");\n            } else if (anneeConstruction < 2005) {\n                scoreEnergetique += 10;\n            }\n\n            // Impact du chauffage\n            if (typeChauffage === 'fioul') {\n                scoreEnergetique += 35;\n                economiePotentielle += 800;\n                recommandations.push(\"Le chauffage au fioul est très énergivore et polluant. Le remplacer par une pompe à chaleur ou un système biomasse est une priorité.\");\n            } else if (typeChauffage === 'electrique') {\n                scoreEnergetique += 25;\n                economiePotentielle += 500;\n                recommandations.push(\"Les convecteurs électriques anciens consomment beaucoup. Une solution plus performante (PAC, poêle) est fortement conseillée.\");\n            } else if (typeChauffage === 'gaz') {\n                scoreEnergetique += 15;\n                economiePotentielle += 300;\n                recommandations.push(\"Une chaudière gaz ancienne peut être optimisée ou remplacée par un modèle à condensation ou hybride.\");\n            } else if (typeChauffage === 'bois') {\n                scoreEnergetique += 10;\n                recommandations.push(\"Un chauffage au bois ancien peut être amélioré par un poêle à granulés plus performant.\");\n            }\n\n            // Impact de l'isolation des murs\n            if (isolationMur === 'aucune') {\n                scoreEnergetique += 40;\n                economiePotentielle += 700;\n                recommandations.push(\"L'absence d'isolation des murs est une source majeure de déperdition. L'isolation par l'extérieur (ITE) ou par l'intérieur (ITI) est essentielle.\");\n            } else if (isolationMur === 'faible') {\n                scoreEnergetique += 25;\n                economiePotentielle += 400;\n                recommandations.push(\"Une isolation des murs ancienne ou faible justifie une amélioration pour des gains significatifs.\");\n            }\n\n            // Impact de l'isolation de la toiture\n            if (isolationToit === 'aucune') {\n                scoreEnergetique += 50;\n                economiePotentielle += 900;\n                recommandations.push(\"La toiture est le principal point de fuite de chaleur (jusqu'à 30%). Une isolation performante est impérative.\");\n            } else if (isolationToit === 'faible') {\n                scoreEnergetique += 30;\n                economiePotentielle += 500;\n                recommandations.push(\"Une isolation de toiture ancienne ou insuffisante doit être renforcée pour des économies importantes.\");\n            }\n\n            // Facteur surface et occupants (pour pondérer les estimations)\n            economiePotentielle = Math.round(economiePotentielle * (surfaceHabitable / 100) * (nombreOccupants / 2));\n\n            let dpeEquivalent = '';\n            let economieAnnuelleMin = Math.max(100, Math.round(economiePotentielle * 0.7));\n            let economieAnnuelleMax = Math.round(economiePotentielle * 1.3);\n\n            if (scoreEnergetique >= 150) {\n                dpeEquivalent = 'F ou G (Très Énergivore)';\n                recommandations.unshift(\"Votre logement est une 'passoire thermique'. Une rénovation globale est fortement recommandée pour un confort optimal et des économies majeures.\");\n            } else if (scoreEnergetique >= 100) {\n                dpeEquivalent = 'D ou E (Moyennement Énergivore)';\n                recommandations.unshift(\"Votre consommation est élevée. Des travaux ciblés peuvent améliorer significativement votre performance.\");\n            } else if (scoreEnergetique >= 50) {\n                dpeEquivalent = 'C (Assez Performant)';\n                recommandations.unshift(\"Votre logement a un bon potentiel d'amélioration pour atteindre une meilleure classification.\");\n            } else {\n                dpeEquivalent = 'A ou B (Très Performant)';\n                recommandations.unshift(\"Votre logement est déjà performant. Des optimisations fines peuvent encore réduire votre consommation.\");\n            }\n\n            let resultHtml = `<h3>Votre Bilan Énergétique Estimé</h3>`;\n            resultHtml += `<p>Basé sur vos informations, votre logement pourrait se situer autour d'une classe DPE de <strong class=\"highlight\">${dpeEquivalent}</strong>.</p>`;\n            resultHtml += `<p>En réalisant les travaux d'amélioration énergétique, vous pourriez réaliser des économies annuelles estimées entre <strong class=\"highlight\">${economieAnnuelleMin}€</strong> et <strong class=\"highlight\">${economieAnnuelleMax}€</strong>.</p>`;\n            resultHtml += `<h4>Nos Recommandations Clés :</h4>`;\n            recommandations.forEach(rec => {\n                resultHtml += `<div class=\"recommendation\"><p>${rec}</p></div>`;\n            });\n            resultHtml += `<p>Pour une analyse précise et un plan d'action détaillé, nous vous conseillons de réaliser un <strong class=\"highlight\">audit énergétique complet</strong> par un professionnel RGE (Reconnu Garant de l'Environnement).</p>`;\n            resultHtml += `<p>N'oubliez pas de vous renseigner sur les aides financières disponibles (MaPrimeRénov', Éco-prêt à taux zéro, etc.) qui peuvent couvrir une part significative de vos travaux.</p>`;\n\n            document.getElementById('tool-result').innerHTML = resultHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
