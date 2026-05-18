@@ -1,0 +1,44 @@
+{
+  "name": "Optimiseur de Consommation Énergétique pour Domiciles Anciens",
+  "description": "Analysez le potentiel d",
+  "theme": "calculator",
+  "design_theme": "refined-grit",
+  "structure_preset": "editorial-rail",
+  "render_direction": "editorial-ledger",
+  "page_blueprint": "dossier-rail",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://optimiseur-de-consommation-energetique-pour-dom-87e1c1d6.onrender.com",
+  "created": "2026-05-18T20:45:34.165034+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1779136989655",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: editorial",
+    "Proof module: rail",
+    "Design theme: Refined Grit",
+    "Render direction: Editorial Ledger",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: energy_score_calculator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
